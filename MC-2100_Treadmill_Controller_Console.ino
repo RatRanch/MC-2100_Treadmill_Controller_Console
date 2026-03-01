@@ -13,10 +13,10 @@
   
     1 black       ground
     2 red         v+ 12V
-    3 green       5V PWM belt speed control
+    3 green       5V PWM belt speed control (1K resistor recommended)
     4 blue        belt tach to console (2.4K pullup resistor required; see wiring diagram)
-    5 orange      incline up (1.5 - 5V relative to pin 6, not ground!)
-    6 yellow      incline down (1.5 - 5V relative to pin 5)
+    5 orange      incline up (1.5 - 5V relative to pin 6, not ground!) 220 ohm resistor recommended
+    6 yellow      incline down (1.5 - 5V relative to pin 5) 220 resistor recommended
     7 violet      incline pulse (when moving, 3 pulses per degree of incline. Use a 2.4K pullup resistor.)
     8 black/wh    ground (unconfirmed reports say this also carries signal info on some models)
 
